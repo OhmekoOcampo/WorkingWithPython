@@ -2,6 +2,8 @@ guest_list = ["Twilight Sparkle", "Toshino Kyouko", "Shana"]
 
 for guest in guest_list:
     print(f"You are invited to my party: {guest}. Please come.")
+    
+print(f"Total number of guests are:{len(guest_list)}")
 
 print(f"The following guest can't make it: {guest_list[1]}")
 
@@ -9,6 +11,8 @@ guest_list[1] = "Sakurako Ohmaro"
 
 for guest in guest_list:
     print(f"You are invited to my party: {guest}. Please come.")
+    
+print(f"Total number of guests are:{len(guest_list)}")
 
 print("We found a bigger table, more guests can be accomodated!")
 
@@ -18,6 +22,8 @@ guest_list.append("Pop Step")
 
 for guest in guest_list:
     print(f"You are invited to my party: {guest}. Please come.")
+    
+print(f"Total number of guests are:{len(guest_list)}")
 
 print("The new table won't arrive to accommodate all guest, only 2 can come. Sorry!")
 
@@ -29,6 +35,8 @@ while count < 4:
 
 for guest in guest_list:
     print(f"You are still invited: {guest}")
+    
+print(f"Total number of guests are:{len(guest_list)}")
 
 print(guest_list)
 
